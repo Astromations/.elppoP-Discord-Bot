@@ -18,9 +18,9 @@ async def on_msg(message):
     sub2 = "big mac"
     fullstring = message.content
     if substring in fullstring: 
-        await message.channel.send(file=discord.File(r'C:\Users\Mateena\Desktop\CPS\hamburger.png'))
+        await message.channel.send(file=discord.File(r'hamburger.png'))
     if sub2 in fullstring: 
-        await message.channel.send(file=discord.File(r'C:\Users\Mateena\Desktop\CPS\hamburger.png'))
+        await message.channel.send(file=discord.File(r'hamburger.png'))
 
 @client.event
 async def on_member_remove(memeber):
