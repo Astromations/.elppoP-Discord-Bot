@@ -142,6 +142,7 @@ async def dead_chat(message):
       if word in message.content:
         already_sent = True 
         await message.channel.send(random.choice(deadchatgif))
+        break
   already_sent = False
 
 # Dice Roll Command
